@@ -1,11 +1,18 @@
 package ru.netology.sqr;
 
-public class SQRService {
-    public static void main(String[] args) {
+import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+class SQRServiceTest {
+    SQRService service = new SQRService();
+    @Test
+    void calculte(){
         int j = 0;
         int min = 200;
         int max = 300;
+        long expected = 3;
+
 
 
         for (int i = 10; i <= 99; i++){
@@ -27,5 +34,6 @@ public class SQRService {
         }
         System.out.println("итого"  +j  );
     }
+
 
 }
