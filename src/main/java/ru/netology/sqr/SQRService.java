@@ -5,21 +5,25 @@ public class SQRService {
 
         int j = 0;
 
+
         for (int i = 10; i <= 99; i++){
-            if (i * i >= 100 && i * i <= 500){
-                  j++;
+            if (i * i >= 200 && i * i <= 300){
+
+                System.out.println( "значения" +i);
+                j++;
 
 
 
 
-                System.out.println( "значения" +j);
+
+
 
 
 
 
             }
         }
-        System.out.println("fdfdf"  );
+        System.out.println("конец"  +j  );
     }
 
 }
